@@ -24,3 +24,33 @@ body {
    padding-left: 15px;
    font-weight: bold; 
 }
+
+#bmi{
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.bmb{
+    text-decoration: none;
+    background-color: #007bff; 
+    color: white;
+    border: none;              
+    margin-left: 20px;
+    padding: 12px 24px;        
+    font-size: 30px;          
+    border-radius: 8px;        
+    cursor: pointer;           
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 0.2); 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+  
+  .bmb:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px);
+  }
+  
+  .bmb:active {
+    transform: translateY(0); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
