@@ -2,6 +2,15 @@ body {
     background-color: lightblue;
   }
 
+  header{
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 4px;
+    border-radius: 20px;
+    text-align:justify;
+    text-align: center;
+  }
+
 #hn{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
@@ -54,3 +63,31 @@ body {
     transform: translateY(0); 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap; /* Stacks columns on small screens */
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  
+  
